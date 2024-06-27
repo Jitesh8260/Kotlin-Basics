@@ -14,7 +14,7 @@ fun main() {
     while (n != 0) {
         val digit = n % 10
         var product = 1
-        repeat(numDigits) {
+        for (i in 1..numDigits) {
             product *= digit
         }
         sum += product

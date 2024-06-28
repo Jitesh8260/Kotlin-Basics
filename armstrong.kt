@@ -7,7 +7,7 @@ fun main() {
     while (n != 0) {
         n /= 10
         numDigits++
-    }
+    } 
 
     var sum = 0
     n = number
